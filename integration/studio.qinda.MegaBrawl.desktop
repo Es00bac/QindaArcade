@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Qinda Mega Brawl
+Comment=Local platform fighting with eight original Qinda characters
+Exec=/home/cabewse/work_SPaC3/Games/QindaMegaBrawlSmash/play-brawl
+Icon=/home/cabewse/work_SPaC3/Games/QindaMegaBrawlSmash/assets/icons/brawl.svg
+Terminal=false
+Categories=Game;ActionGame;
+StartupNotify=true

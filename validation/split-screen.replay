@@ -1,0 +1,12 @@
+0.10 connect xbox
+0.11 connect ps
+0.12 connect xbox
+0.13 connect ps
+0.80 expect playing
+1.00 capture validation/kart-four-player.png
+1.40 resize 1280x720
+1.90 capture validation/kart-four-player-720.png
+2.10 disconnect 1
+2.60 expect paused
+2.75 capture validation/kart-four-player-disconnect.png
+3.00 quit end

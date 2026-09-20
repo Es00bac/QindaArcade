@@ -1,0 +1,578 @@
+{
+  "kart-0": {
+    "triangles": 4313,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 00 / primary paint.003",
+      "Livery 0 / Personal bumper sticker.003",
+      "Livery 0 / Rescue cross stencil.002",
+      "Livery 0 / Sponsor island.006",
+      "Livery 0 / Sponsor island.007",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.0204583406448364,
+      0.4400000274181366,
+      -1.7009999752044678
+    ],
+    "max": [
+      1.0240000486373901,
+      1.809999942779541,
+      1.8003108501434326
+    ]
+  },
+  "kart-1": {
+    "triangles": 12793,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Copper plumbing.003",
+      "Kart 01 / primary paint.003",
+      "Livery 1 / Personal bumper sticker.003",
+      "Livery 1 / Pressure stencil.002",
+      "Livery 1 / Sponsor island.006",
+      "Livery 1 / Sponsor island.007",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.4599997997283936,
+      0.3399999737739563,
+      -1.7009999752044678
+    ],
+    "max": [
+      1.459999918937683,
+      1.6586867570877075,
+      1.6952919960021973
+    ]
+  },
+  "kart-2": {
+    "triangles": 4037,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 02 / primary paint.003",
+      "Livery 2 / Hand-sprayed X.003",
+      "Livery 2 / Personal bumper sticker.003",
+      "Livery 2 / Sponsor island.006",
+      "Livery 2 / Sponsor island.007",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.1669220924377441,
+      0.4300000071525574,
+      -1.7009999752044678
+    ],
+    "max": [
+      1.1669220924377441,
+      1.8204582929611206,
+      1.806999921798706
+    ]
+  },
+  "kart-3": {
+    "triangles": 6500,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 03 / primary paint.003",
+      "Livery 3 / Personal bumper sticker.003",
+      "Livery 3 / Shipping stencil.002",
+      "Livery 3 / Sponsor island.006",
+      "Livery 3 / Sponsor island.007",
+      "Oiled reclaimed timber.003",
+      "Powder-coated frame.003",
+      "Rubber / cable insulation.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.090000033378601,
+      0.4400000274181366,
+      -1.7009999752044678
+    ],
+    "max": [
+      0.9329999685287476,
+      2.0306100845336914,
+      1.6399999856948853
+    ]
+  },
+  "kart-4": {
+    "triangles": 3977,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 04 / primary paint.003",
+      "Livery 4 / Calibration marks.002",
+      "Livery 4 / Personal bumper sticker.003",
+      "Livery 4 / Sponsor island.006",
+      "Livery 4 / Sponsor island.007",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.0482957363128662,
+      0.4400000274181366,
+      -1.7009999752044678
+    ],
+    "max": [
+      1.0482957363128662,
+      1.3450000286102295,
+      1.8009220361709595
+    ]
+  },
+  "kart-5": {
+    "triangles": 2492,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 05 / primary paint.003",
+      "Livery 5 / Personal bumper sticker.003",
+      "Livery 5 / Sponsor island.006",
+      "Livery 5 / Sponsor island.007",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Vanta magenta accent.003"
+    ],
+    "min": [
+      -1.0357919931411743,
+      0.3799999952316284,
+      -1.7899999618530273
+    ],
+    "max": [
+      1.0357919931411743,
+      1.309999942779541,
+      1.7200325727462769
+    ]
+  },
+  "kart-6": {
+    "triangles": 4970,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 06 / primary paint.003",
+      "Livery 6 / Personal bumper sticker.003",
+      "Livery 6 / Sponsor island.006",
+      "Livery 6 / Sponsor island.007",
+      "Livery 6 / Union flower stencil.002",
+      "Oiled reclaimed timber.003",
+      "Powder-coated frame.003",
+      "Rill seafoam enamel.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003",
+      "Worn canvas tool roll"
+    ],
+    "min": [
+      -1.0109220743179321,
+      0.4400000274181366,
+      -1.7009999752044678
+    ],
+    "max": [
+      1.0180000066757202,
+      1.309999942779541,
+      1.7600001096725464
+    ]
+  },
+  "kart-7": {
+    "triangles": 6122,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 07 / primary paint.003",
+      "Livery 7 / Personal bumper sticker.003",
+      "Livery 7 / Sponsor island.006",
+      "Livery 7 / Sponsor island.007",
+      "Livery 7 / Wave emblem.003",
+      "Powder-coated frame.003",
+      "Reservoir blue.003",
+      "Rill seafoam enamel.003",
+      "Rubber / cable insulation.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.0699998140335083,
+      0.4399999976158142,
+      -1.7009999752044678
+    ],
+    "max": [
+      1.0850000381469727,
+      1.8309221267700195,
+      1.7359999418258667
+    ]
+  },
+  "salvage-bin": {
+    "triangles": 2597,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Exposed circuit substrate.003",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -2.2209219932556152,
+      -0.0009220689535140991,
+      -1.334999918937683
+    ],
+    "max": [
+      2.2201967239379883,
+      1.5509220361709595,
+      1.334999918937683
+    ]
+  },
+  "cable-reel": {
+    "triangles": 4596,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Oiled reclaimed timber.003",
+      "Powder-coated frame.003",
+      "Rubber / cable insulation.003"
+    ],
+    "min": [
+      -0.8289711475372314,
+      0.02999996952712536,
+      -1.149999976158142
+    ],
+    "max": [
+      0.8289711475372314,
+      2.3299999237060547,
+      1.149999976158142
+    ]
+  },
+  "appliance-pile": {
+    "triangles": 3326,
+    "materials": [
+      "Blue-black glass.003",
+      "Brushed exposed steel.003",
+      "Machine yellow enamel.003",
+      "Powder-coated frame.003",
+      "Rill seafoam enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.4900872707366943,
+      0.0,
+      -0.9900000095367432
+    ],
+    "max": [
+      1.2899999618530273,
+      2.2200000286102295,
+      1.7112916707992554
+    ]
+  },
+  "compactor": {
+    "triangles": 1685,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Machine yellow enamel.003",
+      "Powder-coated frame.003",
+      "Rill seafoam enamel.003"
+    ],
+    "min": [
+      -2.600196599960327,
+      -0.0004583001136779785,
+      -1.9001967906951904
+    ],
+    "max": [
+      2.6909220218658447,
+      4.350922107696533,
+      1.9009220600128174
+    ]
+  },
+  "conveyor": {
+    "triangles": 4518,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Exposed circuit substrate.003",
+      "Machine yellow enamel.003",
+      "Rubber / cable insulation.003"
+    ],
+    "min": [
+      -1.4700000286102295,
+      0.09999996423721313,
+      -3.0223753452301025
+    ],
+    "max": [
+      1.4704780578613281,
+      2.314945936203003,
+      3.0223753452301025
+    ]
+  },
+  "scrap-car": {
+    "triangles": 1191,
+    "materials": [
+      "Blue-black glass.003",
+      "Brushed exposed steel.003",
+      "Kart 03 / primary paint.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.6200001239776611,
+      0.15000000596046448,
+      -2.3499999046325684
+    ],
+    "max": [
+      1.6200001239776611,
+      1.7300000190734863,
+      2.419999837875366
+    ]
+  },
+  "pallet": {
+    "triangles": 972,
+    "materials": [
+      "Oiled reclaimed timber.003"
+    ],
+    "min": [
+      -1.2000000476837158,
+      0.0,
+      -1.0
+    ],
+    "max": [
+      1.2000000476837158,
+      0.4150000214576721,
+      1.0
+    ]
+  },
+  "solar-array": {
+    "triangles": 3076,
+    "materials": [
+      "Blue-black glass.003",
+      "Brushed exposed steel.003"
+    ],
+    "min": [
+      -2.9000000953674316,
+      -0.012554573826491833,
+      -1.649999976158142
+    ],
+    "max": [
+      2.9000000953674316,
+      3.007999897003174,
+      1.649999976158142
+    ]
+  },
+  "greenhouse": {
+    "triangles": 12891,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Garden service green.003",
+      "Oiled reclaimed timber.003",
+      "Reservoir blue.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -3.0,
+      0.0,
+      -5.0
+    ],
+    "max": [
+      3.0,
+      4.370513439178467,
+      5.0
+    ]
+  },
+  "water-tank": {
+    "triangles": 2487,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Copper plumbing.003",
+      "Rill seafoam enamel.003",
+      "Safety orange enamel.003"
+    ],
+    "min": [
+      -1.3149999380111694,
+      0.2599999010562897,
+      -1.3149999380111694
+    ],
+    "max": [
+      1.3149999380111694,
+      3.7699999809265137,
+      2.299999952316284
+    ]
+  },
+  "pump-skid": {
+    "triangles": 2424,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Copper plumbing.003",
+      "Garden service green.003",
+      "Powder-coated frame.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.8009220361709595,
+      -0.0004583299160003662,
+      -1.2509220838546753
+    ],
+    "max": [
+      1.8009220361709595,
+      1.7809220552444458,
+      1.2504583597183228
+    ]
+  },
+  "planter": {
+    "triangles": 5520,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Garden service green.003",
+      "Oiled reclaimed timber.003",
+      "Powder-coated frame.003"
+    ],
+    "min": [
+      -2.0,
+      0.0,
+      -1.0
+    ],
+    "max": [
+      2.0,
+      1.3900001049041748,
+      1.0
+    ]
+  },
+  "vent-bank": {
+    "triangles": 3992,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Powder-coated frame.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -2.0999999046325684,
+      0.0,
+      -1.2999999523162842
+    ],
+    "max": [
+      2.0999999046325684,
+      2.2099997997283936,
+      1.3341262340545654
+    ]
+  },
+  "transit-shelter": {
+    "triangles": 1042,
+    "materials": [
+      "Blue-black glass.003",
+      "Brushed exposed steel.003",
+      "Kart 03 / primary paint.003",
+      "Oiled reclaimed timber.003",
+      "Powder-coated frame.003",
+      "Reservoir blue.003"
+    ],
+    "min": [
+      -4.300922393798828,
+      0.0,
+      -1.8504582643508911
+    ],
+    "max": [
+      4.300197124481201,
+      3.4704582691192627,
+      1.8504582643508911
+    ]
+  },
+  "freight-crate": {
+    "triangles": 3242,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Kart 03 / primary paint.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -2.3504583835601807,
+      -0.000922083854675293,
+      -1.4709219932556152
+    ],
+    "max": [
+      2.350922107696533,
+      2.600922107696533,
+      1.4704582691192627
+    ]
+  },
+  "signal-mast": {
+    "triangles": 1683,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Powder-coated frame.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.5509220361709595,
+      -0.0004583001136779785,
+      -0.45092204213142395
+    ],
+    "max": [
+      1.5509220361709595,
+      10.0,
+      0.45092204213142395
+    ]
+  },
+  "snow-fence": {
+    "triangles": 996,
+    "materials": [
+      "Oiled reclaimed timber.003"
+    ],
+    "min": [
+      -2.9000000953674316,
+      0.0,
+      -0.09000000357627869
+    ],
+    "max": [
+      2.9000000953674316,
+      2.299999952316284,
+      0.09000000357627869
+    ]
+  },
+  "weather-station": {
+    "triangles": 3141,
+    "materials": [
+      "Blue-black glass.003",
+      "Brushed exposed steel.003",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -1.2006438970565796,
+      -0.0006438493728637695,
+      -1.2392305135726929
+    ],
+    "max": [
+      1.399999976158142,
+      5.920000076293945,
+      1.2392303943634033
+    ]
+  },
+  "rescue-sled": {
+    "triangles": 1217,
+    "materials": [
+      "Brushed exposed steel.003",
+      "Powder-coated frame.003",
+      "Safety orange enamel.003",
+      "Warm ivory enamel.003"
+    ],
+    "min": [
+      -0.9099995493888855,
+      0.09088221192359924,
+      -1.7035748958587646
+    ],
+    "max": [
+      0.9099998474121094,
+      1.0659220218658447,
+      1.803574800491333
+    ]
+  },
+  "alpine-pine": {
+    "triangles": 12793,
+    "materials": [
+      "Matte alpine needles.003",
+      "Oiled reclaimed timber.003",
+      "Settled snow.003"
+    ],
+    "min": [
+      -2.162763833999634,
+      -0.0024232971481978893,
+      -2.1746716499328613
+    ],
+    "max": [
+      2.167954444885254,
+      8.602423667907715,
+      2.1746716499328613
+    ]
+  }
+}

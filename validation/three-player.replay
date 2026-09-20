@@ -1,0 +1,14 @@
+# Start three humans with a keyboard plus Xbox and PlayStation virtual pads.
+0.15 connect xbox
+0.30 connect ps
+0.60 click 160 350
+0.90 expect setup
+1.10 click 160 292
+1.50 capture validation/kart-three-player-setup.png
+1.90 click 160 577
+2.20 expect playing
+2.60 capture validation/kart-three-player.png
+3.10 keydown Escape
+3.25 keyup Escape
+3.50 expect paused
+3.80 quit end

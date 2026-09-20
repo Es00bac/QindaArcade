@@ -1,0 +1,9 @@
+0.30 keydown F11
+0.50 keyup F11
+0.90 expect home
+1.10 capture validation/kart-fullscreen.png
+3.60 keydown F11
+3.80 keyup F11
+4.70 expect home
+5.20 capture validation/kart-windowed.png
+6.00 quit end

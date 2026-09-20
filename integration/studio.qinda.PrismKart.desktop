@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Qinda Prism Kart
+Comment=One-to-four-player kart racing through the reclaimed world
+Exec=/home/cabewse/work_SPaC3/Games/QindaMegaBrawlSmash/play-kart
+Icon=/home/cabewse/work_SPaC3/Games/QindaMegaBrawlSmash/assets/icons/kart.svg
+Terminal=false
+Categories=Game;SportsGame;
+StartupNotify=true

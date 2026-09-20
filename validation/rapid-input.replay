@@ -1,0 +1,14 @@
+# --fps 10 --benchmark 20: several complete taps fall inside one rendered frame.
+0.10 keydown Return
+0.11 keyup Return
+0.30 expect setup
+0.41 keydown Down
+0.42 keyup Down
+0.43 keydown Down
+0.44 keyup Down
+0.45 keydown Down
+0.46 keyup Down
+0.47 keydown Return
+0.48 keyup Return
+0.70 expect playing
+1.00 quit end

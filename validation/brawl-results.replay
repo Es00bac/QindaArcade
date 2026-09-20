@@ -1,0 +1,7 @@
+0.15 expect results
+0.25 capture validation/brawl-results.png
+0.65 keydown Return
+0.80 keyup Return
+1.00 expect playing
+1.10 capture validation/brawl-rematch.png
+1.50 quit end

@@ -1,0 +1,34 @@
+{
+  "crt-body": {
+    "triangles": 940,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "crt-glass": {
+    "triangles": 3452,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "server-body": {
+    "triangles": 3572,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "server-face": {
+    "triangles": 188,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "cable-coil": {
+    "triangles": 5356,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "salvage-gantry": {
+    "triangles": 2712,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "fern": {
+    "triangles": 1302,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  },
+  "wind-pump": {
+    "triangles": 300,
+    "source": "Blender MCP 1.5 / Blender 4.5.5 LTS"
+  }
+}

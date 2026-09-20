@@ -1,0 +1,32 @@
+# 1440x810, --fps 10 --benchmark 14500. Real throttle input, no state injection.
+0.20 expect home
+0.40 click 160 407
+0.80 expect setup
+1.00 click 160 463
+1.40 expect playing
+1.80 keydown W
+350.00 keyup W
+350.40 expect results
+350.50 capture validation/cup-round-1.png
+350.80 click 160 292
+351.20 expect playing
+351.50 keydown W
+700.00 keyup W
+700.40 expect results
+700.50 capture validation/cup-round-2.png
+700.80 click 160 292
+701.20 expect playing
+701.50 keydown W
+1050.00 keyup W
+1050.40 expect results
+1050.50 capture validation/cup-round-3.png
+1050.80 click 160 292
+1051.20 expect playing
+1051.50 keydown W
+1400.00 keyup W
+1400.40 expect results
+1400.50 capture validation/cup-final.png
+1400.80 click 160 292
+1401.20 expect playing
+1401.50 capture validation/cup-rematch.png
+1402.00 quit end

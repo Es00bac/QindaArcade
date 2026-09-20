@@ -1,0 +1,9 @@
+# With --benchmark, replay timestamps follow simulation ticks, not wall-clock time.
+0.10 keydown W
+350.00 keyup W
+350.20 expect results
+350.30 capture validation/kart-results.png
+350.60 click 160 292
+351.20 expect playing
+351.30 capture validation/kart-rematch.png
+351.80 quit end
