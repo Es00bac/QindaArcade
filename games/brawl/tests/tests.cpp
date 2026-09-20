@@ -17,6 +17,19 @@ int main(){try{
  for(int stage=0;stage<4;stage++)for(int n=0;n<100;n++){
   auto ps=platforms(stage,n*.17);for(auto p:ps)check(p.half>1&&std::isfinite(p.y),"platform geometry");
  }
+ // Each collision deck gets one visible top, not two coplanar painted boxes.
+ for(int stage=0;stage<4;stage++){
+  Frame visual;stageModel(visual,stage,18,41,false);
+  for(const auto& p:platforms(stage,18)){
+   unsigned tops=0;
+   for(const auto& instance:visual.batches[Box].instances){
+    auto center=point(instance.model,{0,0,0}),top=point(instance.model,{0,1,0});
+    float halfWidth=length(direction(instance.model,{1,0,0}));
+    if(std::abs(center.x-p.x)<.001f&&std::abs(center.z)<.001f&&halfWidth>p.half-.1f&&std::abs(top.y-p.y)<.001f)tops++;
+   }
+   check(tops==1,"One non-overlapping visible tread at each collision height");
+  }
+ }
  // Damage growth increases launch power; shield stops damage; grabs bypass guards.
  {Battle b;auto& s=BattleTest::state(b);for(auto& f:s.fighters)f.invulnerable=0;
   BattleTest::hit(b,0,1,10);float launch=s.fighters[1].vx;check(s.fighters[1].damage==10,"damage application");

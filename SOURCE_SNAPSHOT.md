@@ -5,3 +5,5 @@ shared native code, authored Blender/GLB/runtime assets and documentation.
 Capture hashes were checked; this publication does not claim new runtime
 tests, completed production features or a packaged release.
 Build output, editor backup files and incidental QA captures are omitted.
+
+Refreshed from the active source at 2026-09-20T02:33:37.436808+00:00.

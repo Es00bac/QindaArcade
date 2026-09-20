@@ -1,5 +1,10 @@
 # Playable-game verification — 2026-09-19
 
+**Current artwork:** [Art revision 2 — screenshots, tests and performance](ART-V2.md).
+The initial seven-test suite and performance sample below are retained as a
+historical baseline; the current suite has eight targets, including authored
+mesh/material/UV validation.
+
 These are native executable checks, not UI mockups. Screenshot files in this
 directory were captured from the OpenGL framebuffer. Earlier `*-first` and
 `*-second` files are retained as iteration evidence; use the links below for

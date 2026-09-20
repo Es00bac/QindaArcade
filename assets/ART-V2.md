@@ -18,6 +18,57 @@ All three output images are 1254 × 1254 (the requested size was 2048 × 2048).
 - `models/art-v2-manifest.json`: bounds, material names and triangle counts.
 - `../docs/RACERS.md`: character origins, sponsors, motivations and construction.
 
+The imagegen skill guided the flat-albedo, restrained-contrast material prompts.
+Sponsor typography and stickers are native vector graphics so lettering remains
+editable and consistently readable. Image generation is an offline authoring
+step: there is no image API dependency when playing.
+
+## Authoring and runtime mapping
+
+`tools/build_art_v2.py` authors the eight body assemblies and twenty prop types
+through the Blender MCP socket in the isolated factory-startup session launched
+by `tools/blender_bootstrap.py`. It does not operate on an unrelated open Blender
+document. `tools/build_environment_assets.py` refreshes the earlier eight-mesh
+prop kit. Both libraries contain packed source textures. The kart library
+contains bodies and accessories; wheels, drivers, steering and animation are
+assembled by the game, not exported character rigs.
+
+The twenty props are a salvage bin, cable reel, appliance pile, compactor,
+conveyor, scrap car, pallet, solar array, greenhouse, water tank, pump skid,
+planter, vent bank, transit shelter, freight crate, signal mast, snow fence,
+weather station, rescue sled and alpine pine. Their placements are stable and
+zone-specific rather than changing with the camera. Terrain contact and road
+clearance are considered at placement time; larger equipment has foundations.
+
+QMS2 expanded triangles store position, normalized normal, UV, part color,
+roughness, metallic response and material mode per vertex. The loader retains
+QMS1 compatibility for the refreshed legacy kit. Important material modes are
+16.x (per-racer livery), 27 (rubber/soft matte surfaces), 28 (worn enamel),
+29 (timber), 30 (bare metal), 31 (clean prototype paint), and 33 (aged ABS).
+Enamel UVs are measured in object space, so wear stays attached to a moving kart.
+Timber aligns its longitudinal grain to each plank's long axis. Livery faces
+use separate padded islands; Ducké and Axi's nose decals follow the curved shell.
+Straight panels follow their actual slope. Transparent stencil pixels are also
+excluded from shadow casting.
+
+The livery atlas is 2048 × 2048: eight rows, four 512 × 256 islands per row.
+`tools/export_liveries.cpp` writes the PNG, editable SVG and eight UV-guide SVGs;
+the normal CMake build regenerates them when their source/profile data changes.
+Bitmap material textures have independent mip chains and anisotropic filtering
+where the graphics driver supports it.
+
+Reproduction, from the project root with the isolated authoring session open:
+
+```sh
+python tools/blender_client.py exec tools/build_art_v2.py
+python tools/blender_client.py exec tools/build_environment_assets.py
+./build-games
+```
+
+The builders clear their own authoring scene. Do not run them against an
+unrelated Blender document. The saved `.blend` libraries can also be opened
+directly for manual editing; saving them does not automatically re-export QMS2.
+
 ## Exact generation prompts
 
 ### Timber

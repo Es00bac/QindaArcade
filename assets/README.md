@@ -1,5 +1,15 @@
 # Reclaimed-world asset notes
 
+## Current art revision
+
+See [Art revision 2](ART-V2.md) for the eight bespoke kart bodies, twenty new
+working-world props, three new image-generated materials, editable sponsor
+graphics and per-racer UV guides. The old atlas below remains as provenance;
+only its circuit-board and road tiles are still used. Its grass and corroded
+paint tiles have been replaced by the calmer meadow and neutral enamel sources.
+The legacy prop library was also re-exported with metric face UVs and refreshed
+materials. Most CRT housings now use aged ABS, not rusty metal.
+
 ## Reference
 
 `references/qinda-bliss.png` is a reference copy of the locally installed
@@ -14,11 +24,10 @@ Saved asset: `textures/reclaimed-atlas.png`.
 The tool returned a 1254 × 1254 PNG (four 627 × 627 material tiles); the prompt
 requested 2048 × 2048. The saved file has not been upscaled.
 Generated with the **built-in image-generation tool**, not the API/CLI fallback.
-The image-generation skill guided a diffuse-only four-material atlas with no
-logos or baked perspective. The renderer uploads the four quadrants separately
-with independent repeating mipmaps to prevent cross-material bleeding. Grass
-uses multi-scale sampling; metal uses world-space triplanar projection to keep
-rust at a consistent scale on beams and small props.
+The image-generation skill guided this initial diffuse-only four-material atlas
+with no logos or baked perspective. Material tiles use independent repeating
+mipmaps to prevent cross-material bleeding. This section records the initial
+asset; revision 2 supersedes its grass and paint treatment.
 
 Generation prompt/specification:
 

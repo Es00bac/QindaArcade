@@ -62,6 +62,23 @@ Preferences and custom mappings are saved in `$XDG_CONFIG_HOME/qinda-arcade`
 
 ## Levels and artwork
 
+The second art pass replaces the shared kart body with **eight individually
+constructed machines**: rescue tug, pressure-tank hot rod, chopped rally racer,
+salvage courier, precision hillclimber, corporate prototype, community service
+buggy and wheeled research skiff. Each has its own sponsor, number, bumper
+sticker, stencil, wheel details and wear treatment. The [racer bible](docs/RACERS.md)
+connects their origins and motivations to the construction. Selection now shows
+the actual chosen kart and a short profile. Ducké, Mochi and Axi have smaller
+drivers and adjusted seats/controls, with the same tire radius and wheelbase.
+
+Twenty new Blender-authored prop types expand the four courses into working
+districts: transit/freight/roof plant, cultivation/irrigation/energy,
+survey/snow-control/rescue, and electronics sorting/cable recovery/reclamation.
+Paint, ABS, rubber, metal and timber use separate material responses. Metric
+UVs, plank-aligned grain, curved decal meshes and padded per-racer livery maps
+replace stretched all-purpose textures. Edge damage is localized to the parts
+that would actually get scraped.
+
 Bliss Reclamation is based on the installed Qinda Bliss wallpaper, not a clean
 Windows XP hill: it has a depot straight, monitor windrows, cableworks bends,
 wind-pump ridge, exposed circuit boards, rusted hardware and meadow breaks.
@@ -73,9 +90,11 @@ through planted utility terraces; Aurora Pass is a mountain-road environment.
 Brawl's terminal, utility garden, rooftop plant and salvage yard use supported
 decks, coherent background structures and a clear foreground combat plane.
 
-The [Blender source library](assets/models/reclaimed-world.blend), exported GLB
-and runtime meshes are included. [Asset notes and image-generation prompt](assets/README.md)
-describe the saved texture atlas and its provenance.
+The [kart and prop Blender library](assets/models/racers-and-world-v2.blend),
+[refreshed legacy prop library](assets/models/reclaimed-world.blend), exported
+GLBs and runtime meshes are included. [Art revision notes](assets/ART-V2.md)
+document the generated textures, exact prompts and editable livery/UV maps.
+[Current screenshots and checks](validation/ART-V2.md) show the actual builds.
 
 This is a substantial playable foundation with a stylized art pass, not a claim
 of finished commercial AA/AAA production quality. Bespoke character animation,
@@ -103,11 +122,14 @@ system package was changed. Build from this root, not from `games/brawl` or
 ./play-kart --play --course bliss
 ./play-brawl --play --stage bliss
 ./play-kart --help
+./play-kart --garage --character 1
 ctest --test-dir build --output-on-failure
 ```
 
 `--demo` runs an AI exhibition; `--snapshot FILE.png`, `--start SECONDS`,
 `--overview`, `--benchmark FRAMES` and `--replay FILE` support repeatable QA.
+Kart's `--garage --character 0..7 --garage-angle RADIANS` inspects a selected
+machine; add `--no-hud --snapshot FILE.png` for an unobstructed image.
 Replay events use wall time normally, simulation-frame time with `--benchmark`.
 `--mute` disables sound and `--no-msaa` lowers rendering cost. `QINDA_ASSETS`
 overrides asset discovery. Assets are otherwise found in the source project or

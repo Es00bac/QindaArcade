@@ -16,7 +16,9 @@ void stageModel(Frame& f,int stage,double time,std::uint64_t seed,bool environme
  // Deck tops are the collision planes. Rear trusses support the upper catwalks.
  for(int i=0;i<4;i++){
   const auto& p=ps[i];float thick=i?.22f:.62f;
-  worldBox(f,{p.x,p.y-thick,0},{p.half,thick,p.depth},concrete);
+  // The tread sits on the structural deck, never coplanar with its top face.
+  // Both faces formerly ended at p.y and fought in the depth buffer.
+  worldBox(f,{p.x,p.y-thick-.045f,0},{p.half,thick-.045f,p.depth},concrete);
   worldBox(f,{p.x,p.y-.045f,0},{p.half-.05f,.045f,p.depth-.06f},{{.52f,.58f,.54f},0,.8f,.14f,21});
   worldLine(f,{p.x-p.half+.1f,p.y+.025f,p.depth-.04f},{p.x+p.half-.1f,p.y+.025f,p.depth-.04f},.045f,{accent,.5f,.55f,.2f});
   for(int side:{-1,1}){
@@ -29,7 +31,7 @@ void stageModel(Frame& f,int stage,double time,std::uint64_t seed,bool environme
  if(!environment)return;
  add(f,Terrain,M4::identity(),{garden||bliss?V3{.65f,.80f,.49f}:V3{.17f,.22f,.23f},0,.95f,0,garden||bliss?20.f:0.f});
  // The fighting deck is cantilevered over a real drop. Scenery stays behind the action.
- worldBox(f,{0,-2.4f,-12},{23,.72f,7},concrete);
+ worldBox(f,{0,-2.57f,-12},{23,.55f,7},concrete);
  for(int side:{-1,1})for(int j=0;j<3;j++)worldBox(f,{side*(7.f+j*6),-9,-12},{.65f,6,1.2f},concrete);
  worldBox(f,{0,-1.7f,-12},{23,.32f,7},garden||bliss?Material{{.65f,.8f,.48f},0,.95f,0,20}:metal);
  for(int side:{-1,1}){
