@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+set -f
+project_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+# Inherit the user's actual job AND load limits. Never replace MAKEOPTS.
+build_opts=$(portageq envvar MAKEOPTS)
+test -n "$build_opts" || { printf '%s\n' 'Portage returned empty MAKEOPTS; no guessed build limits were used.' >&2; exit 1; }
+cmake -S "$project_dir" -B "$project_dir/build" -G Ninja -DCMAKE_BUILD_TYPE=Release
+# Intentional splitting: Portage supplies the existing -j and -l arguments.
+ninja -C "$project_dir/build" $build_opts "$@"
+ctest --test-dir "$project_dir/build" --output-on-failure
